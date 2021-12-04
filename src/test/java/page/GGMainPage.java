@@ -26,7 +26,7 @@ public class GGMainPage {
     @FindBy(xpath = "//h1[@id='sp-title']")
     public WebElement urunBilgisi;
 
-    @FindBy(xpath = "(//div[@id='sp-price-lowPrice'])[1]")
+    @FindBy(xpath = "//span[@id='sp-price-highPrice']")
     public WebElement fiyatBilgisi;
 
     @FindBy(xpath = "//button[@id='add-to-basket']")
